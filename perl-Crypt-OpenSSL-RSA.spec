@@ -1,6 +1,6 @@
 Name:           perl-Crypt-OpenSSL-RSA
 Version:        0.28
-Release:        5%{?dist}
+Release:        7%{?dist}
 Summary:        Perl interface to OpenSSL for RSA
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -54,6 +54,12 @@ rm -rf %{buildroot}
 %{_mandir}/man3/*
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 0.28-7
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.28-6
+- Mass rebuild 2013-12-27
+
 * Tue Nov 27 2012 Jitka Plesnikova <jplesnik@redhat.com> - 0.28-5
 - Update dependencies and source link
 - Add perl_default_filter
